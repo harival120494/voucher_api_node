@@ -1,0 +1,22 @@
+{
+  "name": "aichat_assessment",
+  "version": "1.0.0",
+  "description": "This project is assessment test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Harival Tivani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.16.1",
+    "sqlite3": "^5.0.2"
+  }
+}
